@@ -42,9 +42,9 @@ if [[ $rc0 -ne 0 || $rc1 -ne 0 || $rc2 -ne 0 ]]; then
 	exit 1
 fi
 
-source ./sources.sh
-source ./firmware.sh
-source ./functions.sh
+source /home/chronos/user/Downloads/sources.sh
+source /home/chronos/user/Downloads/firmware.sh
+source /home/chronos/user/Downloads/functions.sh
 
 #set working dir
 cd /tmp
